@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+body a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar{
+    background-color: #E62E64;
+    padding-left: 3rem;
+    font-weight: 700;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul.topnav li a:hover {
+    color: #fff;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #f5749b;
+}
+
+ul.topnav li a.active {
+    background-color: #f72a90;
+}
+
+#banner img{
+    width: 100%;
+}
+
+.banner-section{
+    width: 100%;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+.second-container{
+    background-color: #282828;
+    padding: 67px;
+    margin: 100px 0;
+}
+@media only screen and (min-width: 576px){
+    .second-container {
+        background-color: #282828;
+        padding: 50px;
+        margin: 100px 0;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 360px){
+    .second-container {
+        background-color: #282828;
+        padding: 50px;
+        margin: 100px 0;
+        margin-top: 10px;
+    }
+}
+#second-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.core-values{
+    padding: 90px 50px 100px 50px;
+    color: #fff;
+    text-align: center;
+}
+
+/* media queries for three boxes */
+@media only screen and (max-width: 600px) {
+    .core-values{
+        padding: 60px 20px 60px 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .core-values{
+        padding: 30px 20px 30px 20px;
+        font-size: 14px;
+    }
+    .core-values h3{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+@media only screen and (min-width: 910px) {
+    .core-values{
+        padding: 50px 50px 50px 50px;
+        font-size: 20px;
+    }
+    .core-values h3{
+        font-size: 34px;
+        font-weight: 700;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .core-values{
+        padding: 40px 10px 40px 10px;
+    }
+}
+@media only screen and (max-width: 336px) {
+    .core-values{
+        padding: 20px 5px 20px 5px;
+        font-size: 12px;
+    }
+
+    .core-values h3{
+        font-size: 20px;
+    }
+
+    .core-values p{
+        font-size: 16px;
+    }
+}
+
+#email-marketing{
+    background-color: rgb(24, 24, 24);
+}
+
+#market-analysis{
+    background-color: #E8432D;
+}
+
+#keyword-research{
+    background-color: rgb(28, 27, 27);
+}
+
+.third-container{
+    padding: 40px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what-we-do{
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    padding: 25px;
+    border-radius: 500px;
+    margin-bottom: 20px;
+}
+
+.arrow{
+    margin-left: 5rem;
+}
+
+.fifth-container{
+    padding: 2rem;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 100%;
+}
+@media only screen and (min-width: 576px ){
+    .fifth-container h4{
+        font-size: 20px;
+    }
+}
+.sixth-container{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 2rem;
+}
+@media only screen and (min-width: 576px ){
+    .sixth-container h4{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+h3{
+    font-size: 40px;
+}
+
+.team{
+    background-color: #F9F9F9;
+    padding:40px 30px 40px 30px;
+}
+
+.text-underline{
+    border-top: 3px solid #E9452A;
+    width: 50px;
+    margin-top: 0px
+}
+
+.button-hover{
+    background-color: #E8432D; 
+    color: #fff; 
+    width: 80%; 
+    padding: 10px; 
+    border: none; 
+    height: 60%;
+}
+
+/* button responsiveness */
+@media only screen and (max-width: 870px) {
+    .button-hover{
+        width: 100%;
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 870px) {
+    .button-hover{
+        width: 100%;
+        height: 50%;
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 360px) {
+    .col-sm-2 .button-hover {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 50%;
+        height: 80%;
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    .col-sm-2 .button-hover {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 50%;
+        height: 80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .col-sm-2 .button-hover {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 30%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .col-sm-2 .button-hover {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 60%;
+    }
+}
+@media only screen and (min-width: 540px) {
+    .col-sm-2 .button-hover {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 40%;
+        height: 60%;
+    }
+    
+}
+@media only screen and (max-width: 1280px) {
+    .col-sm-2 .button-hover {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 50%;
+    }
+    
+}
+
+.button-hover a:hover {
+color: #fff;
+}
+
+.footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom:  0px;
+    color: white;
+    line-height: 2.5rem;
+    margin-top: 50px;
+}
+.footer .container{
+    padding-bottom: 0px;
+}
+
+.foot-link{
+    padding-left: 0pt;
+}
+
+.foot-link li{
+    list-style-type: none;  
+    text-align: left;
+    margin-left: 0px;
+}
+
+.foot-link li a:hover{
+    color: #E8432D; 
+}
+
+.foot-link h4 ul li a{
+    text-decoration: none;
+    
+}
+
+#horizontal-rule{
+    margin-top: 50px;
+}
+
+.foot-text{
+    color: #fff;
+}
+
+.sitemap p {
+    text-align: right;
+}
+
+/* contact form  */
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+	outline: none;
+}
+
+::-moz-placeholder {
+	color: #666;
+	font-weight: 300;
+	opacity: 1;
+}
+
+::-webkit-input-placeholder {
+	color: #666;
+	font-weight: 300;
+}
+
+/* Contact Form Styling */
+.container {
+	padding: 0 50px 70px;
+}
+
+.textcenter {
+	text-align: center;
+}
+
+.section1 {
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+
+.section1 .shtext {
+	display: block;
+	margin-top: 20px;
+}
+
+.section1 .seperator {
+	border-bottom:1px solid #a2a2a2;
+	width: 35px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.section1 h1 {
+	font-size: 40px;
+	color: #E8432D;
+	font-weight: normal;
+}
+
+.section2 {
+    width: 1200px;
+    margin: 25px auto;
+}
+
+.section2 .col2 {
+	width: 48.71%;
+}
+
+.section2 .col2.first {
+	float: left;
+}
+
+.section2 .col2.last {
+	float: right;
+}
+
+.section2 .col2.column2 {
+	padding: 0 30px;
+}
+
+.section2 span.collig {
+	color: #a2a2a2;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.section2 .sec2addr {
+	display: block;
+	line-height: 26px;
+}
+
+.section2 .sec2addr p:first-child {
+	margin-bottom: 10px;
+}
+
+.section2 .sec2contactform input[type="text"], 
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+    padding: 18px;
+    border: 0;
+    background: #EDEDED;
+    margin: 7px 0;
+}
+
+.section2 .sec2contactform textarea {
+	width: 100%;
+	display: block;
+	color: #666;
+    resize:none;
+}
+
+.section2 .sec2contactform input[type="submit"] {
+	padding: 15px 40px;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    background: #E8432D;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 7px 0;
+    cursor: pointer;
+}
+
+.section2 .sec2contactform h3 {
+	font-weight: normal;
+    margin: 20px 0;
+    margin-top: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 19px;
+    color: #E8432D;
+}
+
+/* @media querries */
+
+@media only screen and (max-width: 1266px) {
+	.section2 {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 960px) {
+	.container {
+		padding: 0 30px 70px;
+	}
+	.section2 .col2 {
+		width: 100%;
+		display: block;
+	}
+	.section2 .col2.first {
+		margin-bottom: 10px;
+	}
+	.section2 .col2.column2 {
+		padding: 0;
+	}
+	body .sec2map {
+		height: 250px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.section2 .sec2addr {
+		font-size: 14px;
+	}
+	.section2 .sec2contactform h3 {
+		font-size: 16px;
+	}
+	.section2 .sec2contactform input[type="text"], .section2 .sec2contactform input[type="email"], .section2 .sec2contactform textarea {
+		padding: 10px;
+		margin:3px 0;
+	}
+	.section2 .sec2contactform input[type="submit"] {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.section1 h1 {
+		font-size: 28px;
+	}	
+}
+
+
+  /* Dropdown */
+.dropbtn {
+    background-color: rgb(243, 79, 79);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    padding-left: 0pt;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(230 46 100);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 0pt;
+    text-align: left;
+  }
+
+  .dropdown-content li{
+      list-style-type: none;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(243, 79, 79);
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content{
+    display: block;}

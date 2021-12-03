@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+body a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar{
+    background-color: #E62E64;
+    padding-left: 3rem;
+    font-weight: 700;
+    /* padding-right: 3rem; */
+}
+/* .navbar{
+    background-color: #E62E64;
+    padding: 13px;
+    text-align: center;
+    width: 100%;
+} */
+/* #nav-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+} */
+
+/* #menu-column{
+    display: inline;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.2rem;
+} */
+/* #menu-column ul li{
+    display: inline;
+} */
+.navbar-brand img {
+    height: 50px;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ul.topnav li a:hover {
+    color: #fff;
+}
+ul.topnav li a:hover:not(.active) {
+    background-color: #f5749b;
+}
+
+ul.topnav li a.active {
+    background-color: #f72a90;
+}
+#banner img{
+    width: 100%;
+}
+.banner-section{
+    width: 100%;
+}
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+.second-container{
+    background-color: #282828;
+    padding: 67px;
+    margin: 100px 0;
+}
+#second-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.core-values{
+    padding: 90px 50px 100px 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#email-marketing{
+    background-color: rgb(24, 24, 24);
+}
+#market-analysis{
+    background-color: #E8432D;
+}
+#keyword-research{
+    background-color: rgb(28, 27, 27);
+}
+.third-container{
+    padding: 40px;
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.what-we-do{
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    padding: 25px;
+    border-radius: 500px;
+
+}
+.what-we-do h5 a:hover{
+    color: chocolate;
+}
+
+.arrow{
+    margin-left: 5rem;
+}
+.fifth-container{
+    padding: 2rem;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 100%;
+}
+.sixth-container{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 2rem;
+}
+
+h3{
+    font-size: 40px;
+}
+.team{
+    background-color: #F9F9F9;
+    padding:40px 30px 40px 30px;
+    /* width: 100%; */
+    /* height: 300px; */
+}
+.text-underline{
+    border-top: 3px solid #E9452A;
+    width: 50px;
+    margin-top: 0px
+}
+.button-hover a:hover {
+color: #fff;
+}
+.footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom:  50px;
+    color: white;
+    line-height: 2.5rem;
+    margin-top: 50px;
+}
+.foot-link{
+    padding-left: 0pt;
+}
+.foot-link li{
+    list-style-type: none;  
+    text-align: left;
+    margin-left: 0px;
+}
+.foot-link li a:hover{
+    color: #E8432D; 
+}
+.foot-link h4 ul li a{
+    text-decoration: none;
+    
+}
+#horizontal-rule{
+    margin-top: 50px;
+}
+.foot-text{
+    color: #fff;
+}
+.sitemap p {
+    text-align: right;
+}
+
+/* contact form  */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(243, 79, 79);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(243, 79, 79);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form-wrapper {
+    /* width: 100%; */
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    /* padding: 15rem; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  .form-container{
+      padding: 80px;
+  }
+
+
+  /* Dropdown */
+.dropbtn {
+    background-color: rgb(243, 79, 79);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(230 46 100);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content li{
+      list-style-type: none;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(243, 79, 79);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+ 
