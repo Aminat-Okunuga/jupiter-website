@@ -166,6 +166,9 @@ ul.topnav li a.active {
     margin-bottom: 20px;
 }
 
+.what-we-do h5 a:hover{
+    color: #E9452A;
+}
 .arrow{
     margin-left: 5rem;
 }
@@ -327,6 +330,10 @@ color: #fff;
 
 .sitemap p {
     text-align: right;
+}
+
+.sitemap p a:hover{
+    color:#E8432D;
 }
 
 /* contact form  */
